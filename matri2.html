@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        #home-page
+    {
+        /* height:900px; */
+        height: 100vh;
+        width: 100%;
+        background-image: url("/banner.jpg");
+        background-size: cover;
+        position: fixed;
+        left: 0;
+        top: 0;
+
+
+    }
+    #bar1
+    {
+        height: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+      
+
+
+    }
+    #bar1 #a1{
+        color: white;
+        text-decoration: none;font-size: 22px;
+        position: absolute;
+        left: 300px;
+
+
+
+
+    }
+    #bar1 #a2{
+        color: white;
+        text-decoration: none;font-size: 22px;
+        margin-left: 50px;
+        position: absolute;
+        left: 50px;
+        
+
+
+
+
+    }
+    #bar2
+    {
+
+    
+height:150px;
+width: 100%;
+margin-top: 20px;
+
+
+
+    }
+    #h1
+    {
+        font-size: 25px;
+        color: white;
+    }
+    #bar2 {
+        color: white;
+        font-weight: 400;
+        
+        
+        
+    }
+    #b1
+    {
+        height: 42px;
+        width: 100px;
+        background-color:transparent; ;
+        color: white;
+        border-radius: 8%;
+        font-size: 20px;
+        border: none;
+        margin: 0 20px 0 500px;
+        
+
+    }
+    #b2
+    {
+        height: 42px;
+        width: 100px;
+        background-color:transparent; ;
+        color: white;
+        border-radius: 8%;
+        font-size: 20px;
+        border: none;
+        margin-right: 20px;
+
+    }
+    #b3
+    {
+        height: 42px;
+        width: 100px;
+        background-color:transparent; ;
+        color: white;
+        border-radius: 8%;
+        font-size: 20px;
+        border: none;
+        margin-right: 20px;
+
+    }
+    #b4
+    {
+        height: 42px;
+        width: 80px;
+        background-color:transparent; ;
+        color: white;
+        border-radius: 8%;
+        font-size: 20px;
+        border: none;
+        margin-right: 20px;
+
+    }
+    #b5
+    {
+        height: 42px;
+        width: 120px;
+        background-color:transparent; ;
+        color: white;
+        border-radius: 8%;
+        font-size: 20px;
+        border: none;
+        margin-right: 20px;
+
+    }
+    #b6
+    {
+        height: 42px;
+        width: 120px;
+        background-color:#e84393; 
+        color: white;
+        border-radius: 8%;
+        font-size: 20px;
+        border: none;
+        position: relative;
+        left: 30%;
+        bottom: 30px;
+        
+
+    }
+#b1:hover {
+    background-color:#e84393; 
+}
+#b2:hover {
+    background-color:#e84393; 
+}
+#b3:hover {
+    background-color:#e84393; 
+}#b4:hover {
+    background-color:#e84393; 
+}#b5:hover {
+    background-color:#e84393; 
+}
+#readmore:hover {
+    background-color:#e84393;
+    border:none;
+}
+#matri-s
+{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+   
+    
+    left: 60px;
+    bottom: 20px;
+
+}
+#best-w
+{
+    color: white;
+    font-size: 80px;
+    font-weight: 800;
+    position: relative;
+    left: 60px;
+    bottom: 80px;
+    
+}
+#couple
+{
+    color: #e84393;
+    font-size: 80px;
+    font-weight: 800;
+    position: relative;
+    left: 60px;
+    bottom: 140px;
+}
+#aa
+{
+    height: 700px;
+    font-weight: 500px;
+}
+p{
+    width: 550px;
+    color: white;
+    position: relative;
+    left: 60px;
+    font-size: 20px;
+    bottom: 220px;
+
+}
+#readmore
+{
+    height: 42px;
+        width: 120px;
+        background-color:transparent; 
+        color: white;
+        border-radius: 8%;
+        font-size: 20px;
+        border: 2px solid white;
+        position: relative;
+    left: 60px;
+    
+    bottom: 200px;
+    }
+    form{
+        height: 500px;
+        width: 500px;
+        background-color:transparent;
+
+        position: relative;
+        left: 60%;
+        bottom: 110%;
+        background-color:  #e84393;
+        opacity: 0.9;
+        scale: 0.90;
+       
+        
+    }
+    #r
+    {
+        height: 30px;
+        width: 100%;
+        color: black;
+        font-size: 35px;
+
+    }
+    #inp1
+    {
+        height: 50px;
+        width: 300px;
+        background-color:white;
+        color: #e84393;
+       
+        position: absolute;
+        left: 80px;
+        margin-top: 100px;
+        border: none;
+
+        
+    }
+    #inp2
+    {
+        height: 50px;
+        width: 300px;
+        background-color: white;
+        color: #e84393;
+        position: absolute;
+        left: 80px;
+        margin-top: 200px;
+        border: none;
+
+        
+    }
+    #inp3
+    {
+        height: 50px;
+        width: 300px;
+        background-color:white;
+        color: #e84393;
+        position: absolute;
+        left: 80px;
+        margin-top: 300px;
+        border: none;
+
+        
+    } #inp4
+    {
+        height: 50px;
+        width: 300px;
+        background-color:white;
+        color: #e84393;
+        position: absolute;
+        left: 80px;
+        margin-top: 400px;
+
+        border: none;
+      
+        
+    }
+    input::placeholder
+    {
+        color: #e84393;
+        position: absolute;
+        left: 80px;
+    }
+    #tc
+    {
+        position: absolute;
+        bottom: 10px;
+        height: 20px;
+        width: 100%;
+        left: 10px;
+    }
+    #tc a{
+        color:white;
+        text-decoration: none;
+
+
+    }
+    #inp1:hover{
+        box-shadow: 3px 3px 10px white;
+
+    }
+    #inp2:hover{
+        box-shadow: 3px 3px 10px white;
+
+    }
+    #inp3:hover{
+        box-shadow: 3px 3px 10px white;
+
+    }
+    #inp4:hover{
+        box-shadow: 3px 3px 10px white;
+
+    }
+    .m1
+    {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 250px;
+
+    }
+    .pon
+    {
+        color: #ffffff;
+        font-size: 30px;
+        position: absolute;
+        left: 40px;
+
+    }
+   .ib{
+        color: #e84393;
+        font-size: 60px;
+        position: absolute;
+        left: 250px;
+    }
+    #h1
+    {
+        position: relative;
+        left: 90px;
+        font-size: 30px;
+        top: 20px
+        ;
+    }
+    .m1:hover{
+        box-shadow: 5px 5px 10px #e84393; ;
+    }
+    .pon:hover{
+        box-shadow: 5px 5px 10px #e84393;
+    }
+    .hb
+    {
+        color:white;
+        font-size: 40px;
+
+
+    }
+    #heartb
+    {
+        height: 50px;
+        width: 100px;
+        border: none;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        background-color: transparent;
+
+    }
+    #aa
+    {
+       
+        position: relative;
+        bottom: 50px;
+    }
+    
+    form{
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    
+
+
+
+
+    
+   
+
+
+    </style>
+</head>
+<body>
+    <div id="home-page">
+        <div id="bar1">
+            <i class="fa-regular fa-envelope m1"></i>
+            <a href="" id="a1"> vyast5529@gmail.com</a>
+            <i class="fa-solid fa-phone pon"></i>
+            <a href="" id="a2">9116795247</a>
+            
+        </div>
+        <div id="bar2">
+            
+            <span id="magic-box">
+                <i class="fa-solid fa-gift ib"></i>
+                <span id="h1">Magic Box</span>
+            </span>
+            <button id="b1" class="b">Home</button>
+            <button id="b2" class="b">About Us</button>
+            <button id="b3"class="b">Services</button>
+            <button id="b4"class="b">Stats</button>
+            <button id="b5"class="b">Testimonials</button>
+            <button id="b6"class="b">Subscribe</button>
+            
+
+        </div>
+        <div id="main heading">
+            <span id="aa">
+            
+                <h3 id="matri-s">Matrimonial Search.</h3>
+                <h1 id="best-w">Best Matching</h1>
+                <h1 id="couple">Couples</h1>
+            </span>
+            <p id="p1">Onec Consequat Sapien Ut Leo Cursus Rhoncus. Nullam Dui Mi, Vulputate Ac Metus Semper Nullam Dui Mi. Vestibulum Ante. Morbi At Dui Nisl.</p>
+            <button id="readmore">Read More</button>
+        </div>
+        <form action="">
+            <span id ="r">
+                Register & Join our Matrimony
+            </span>
+            <input type="text" placeholder="Your Name" id="inp1">
+            <input type="email" placeholder="Email Id" id="inp2">
+            <input type="text" placeholder="Contact Number" id="inp3">
+            <input type="text" placeholder="Your Interest" id="inp4">
+            <button id="heartb"><i class="fa-solid fa-heart hb"></i></button>
+            <span id="tc">By registering, you agree to our <a href="" >Terms & Conditions.</a></span>
+
+
+
+        </form>
+
+
+
+    </div>
+    <script  src="fun.js"></script>
+    
+</body>
+</html>
